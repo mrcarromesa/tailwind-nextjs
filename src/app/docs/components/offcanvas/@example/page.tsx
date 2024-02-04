@@ -1,5 +1,4 @@
 'use client'
-
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { useRef } from 'react'
 import { EXAMPLE_OFF_CANVAS } from './constants'

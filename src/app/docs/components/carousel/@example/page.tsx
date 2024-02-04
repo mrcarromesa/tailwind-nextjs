@@ -1,5 +1,4 @@
 'use client'
-
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Carousel } from '@mrcarromesa/components'
 

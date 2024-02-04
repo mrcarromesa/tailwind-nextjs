@@ -1,5 +1,4 @@
 'use client'
-
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Fragment, useRef } from 'react'
 import { HTML_POPOVER } from './constants'

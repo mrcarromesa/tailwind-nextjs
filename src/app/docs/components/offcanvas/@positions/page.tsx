@@ -1,5 +1,4 @@
 'use client'
-
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Fragment, useRef } from 'react'
 import { EXAMPLE_OFF_CANVAS } from './constants'
@@ -32,7 +31,7 @@ export default function Positions() {
         {positions.map((position) => (
           <Fragment key={position}>
             <OffCanvas.Root
-              ref={(r) =>
+              ref={(r: OverlayElementProps) =>
                 (offCanvasRef.current[position] = r as OverlayElementProps)
               }
               dismissible

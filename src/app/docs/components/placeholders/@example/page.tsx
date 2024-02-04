@@ -1,3 +1,4 @@
+'use client'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Button, Card, Placeholder } from '@mrcarromesa/components'
 

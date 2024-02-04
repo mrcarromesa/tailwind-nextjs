@@ -1,7 +1,6 @@
 'use client'
 import { Button } from '@mrcarromesa/components'
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
-import Link from 'next/link'
 
 export default function TagButton() {
   return (
@@ -27,7 +26,7 @@ export default function TagButton() {
         <Button asComponent="a" href="example.com">
           Link with tag a
         </Button>
-        <Button asComponent={Link} href="example.com">
+        <Button asComponent="a" href="example.com">
           Link from next
         </Button>
         <Button asComponent="input" type="reset" value="Reset" />
@@ -36,7 +35,7 @@ export default function TagButton() {
         <Button asComponent="a" href="example.com">
           Link with tag a
         </Button>
-        <Button asComponent={Link} href="example.com">
+        <Button asComponent="a" href="example.com">
           Link from next
         </Button>
         <Button asComponent="input" type="reset" value="Reset" />

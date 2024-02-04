@@ -35,7 +35,7 @@ export default function LiveExample() {
         ))}
         <button
           onClick={() => setAlertsSample((current) => [...current, Date.now()])}
-          className="w-fit rounded-md bg-primary-background px-3 py-2 text-left text-primary-color transition-colors ease-in-out dark:bg-primary-dark-background dark:text-primary-dark-color dark:hover:bg-primary-dark-hover-background dark:hover:text-primary-dark-hover-color"
+          className="bg-primary-background text-primary-color dark:bg-primary-dark-background dark:text-primary-dark-color dark:hover:bg-primary-dark-hover-background dark:hover:text-primary-dark-hover-color w-fit rounded-md px-3 py-2 text-left transition-colors ease-in-out"
         >
           Show live alert
         </button>

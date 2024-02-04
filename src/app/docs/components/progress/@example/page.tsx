@@ -1,8 +1,6 @@
 'use client'
-
 import { CodeHighlighter } from '@/app/components/internalComponents/CodeHighLighter'
 import { Button, Progress } from '@mrcarromesa/components'
-import Link from 'next/link'
 
 export default function Example() {
   return (
@@ -18,9 +16,8 @@ export default function Example() {
       <p className="mt-2 text-base">
         Progress component use two HTML elements, We don&apos;t use the{' '}
         <Button
-          asComponent={Link}
+          asComponent="a"
           href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/progress"
-          passHref
           target="_blank"
           variation="link"
           className="!p-0"
